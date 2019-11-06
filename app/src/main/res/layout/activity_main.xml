@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/basic_data_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bundle Basic data"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/serializable_data_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bundle Serializable data"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/parcelable_data_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bundle Parcelable data"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
